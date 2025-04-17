@@ -2,6 +2,8 @@
 
 A powerful Chrome extension that lets you selectively hide elements on any webpage. Perfect for decluttering your browsing experience by removing distracting or unwanted content.
 
+[![Watch the video](https://img.youtube.com/vi/MLIDQBssJ2o/0.jpg)](https://www.youtube.com/watch?v=MLIDQBssJ2o)
+
 ## 🌟 Features
 
 - **Easy Element Selection**: Simply hover over any element to highlight it
