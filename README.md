@@ -1,14 +1,22 @@
 # 🎯 Website Section Hider
 
+<div align="center">
+  <img src="hero-gradient-background.png" alt="Website Section Hider Banner" width="100%">
+  <br>
+  <p><em>Declutter your web experience with one click</em></p>
+</div>
+
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/your-extension-id?color=blue&label=Chrome%20Web%20Store)](https://chrome.google.com/webstore/detail/your-extension-id)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/rohansonawane/website-section-hider/graphs/commit-activity)
 
+## 🎥 Demo
+
+https://github.com/rohansonawane/website-section-hider/assets/your-username/hide-section.webm
+
 <div align="center">
   <img src="icons/icon128.png" alt="Website Section Hider Logo" width="128" height="128">
-  <br>
-  <p><em>Declutter your web experience with one click</em></p>
 </div>
 
 ## 📋 Table of Contents
