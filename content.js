@@ -41,7 +41,7 @@
                             }
                         });
                     }
-                });
+                    });
 
                 // If not all elements were found and we haven't exceeded max attempts, try again
                 if (!allElementsFound && initializationAttempts < MAX_INITIALIZATION_ATTEMPTS) {
@@ -180,11 +180,11 @@
                 similarElements = [];
             } else {
                 // Normal hiding behavior
-                hideElement(selectedElement);
-                if (persistEnabled) {
-                    saveHiddenElement(selectedElement);
-                }
-                removeHighlight(selectedElement);
+            hideElement(selectedElement);
+            if (persistEnabled) {
+                saveHiddenElement(selectedElement);
+            }
+            removeHighlight(selectedElement);
             }
             selectedElement = null;
         }
@@ -374,16 +374,16 @@
             chrome.storage.local.get(['hiddenElements'], function(result) {
                 if (result.hiddenElements && result.hiddenElements.length > 0) {
                     result.hiddenElements.forEach(selector => {
-                        const elements = document.querySelectorAll(selector);
-                        elements.forEach(element => {
-                            if (element && (!element.style.display || element.style.display !== 'none')) {
-                                hideElement(element);
-                            }
+                            const elements = document.querySelectorAll(selector);
+                            elements.forEach(element => {
+                                if (element && (!element.style.display || element.style.display !== 'none')) {
+                                    hideElement(element);
+                                }
+                            });
                         });
-                    });
-                }
-            });
-        }
+                    }
+                });
+            }
     });
 
     // Start observing the document with the configured parameters
